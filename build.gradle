@@ -55,7 +55,7 @@ jib {
         image = "openlimark/spring-cloud-config-server:${project.version}"
     }
     container {
-        jvmFlags = ['-Xms64m -Xmx128m']
+        jvmFlags = ['-Xms64M -Xmx128M']
         ports = ['8888']
     }
 }
