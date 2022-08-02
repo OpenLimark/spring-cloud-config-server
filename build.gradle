@@ -49,7 +49,7 @@ dependencyManagement {
 
 jib {
     from {
-        image = "gcr.io/distroless/java@sha256:b430543bea1d8326e767058bdab3a2482ea45f59d7af5c5c61334cd29ede88a1"
+        image = "openjdk@sha256:3bb214ef55ca71d67626748ab4383e112fb132981d8d5003c32be3a7a67697fd"
     }
     to {
         image = "openlimark/spring-cloud-config-server:${project.version}"
